@@ -110,7 +110,6 @@ nav a {
   color: #c4bebe;
   text-decoration: none;
   padding: 10px 10px;
-  overflow: hidden;
   font-size: 15px;
   border-radius: 6px;
 }
@@ -312,6 +311,30 @@ footer p {
 
 @media screen and (max-width: 500px) {
   .container {
-    background-color: #bada55;
+    width: 500px;
+    padding: 20px 0;
   }
+
+  header .home-link {
+    margin-top: 0;
+  }
+
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header nav a {
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    border-radius: initial;
+  }
+
+  .cover {
+    margin: 50px 20px 28px;
+  }
+
 }
