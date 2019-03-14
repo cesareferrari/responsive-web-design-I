@@ -241,6 +241,8 @@ footer p {
 }
 
 
+/* Tablet */
+
 @media screen and (max-width: 800px) {
 
   h3 {
@@ -248,7 +250,8 @@ footer p {
   }
 
   .container {
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     padding: 20px;
   }
 
@@ -309,9 +312,13 @@ footer p {
   }
 }
 
+
+/* Mobile */
+
 @media screen and (max-width: 500px) {
   .container {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     padding: 20px 0;
   }
 
